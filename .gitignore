@@ -1,0 +1,14 @@
+# Bytecode / cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+.conda/
+
+# OS noise
+.DS_Store
