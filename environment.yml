@@ -1,5 +1,6 @@
 name: pyviz
-channels: [conda-forge]
+channels:
+  - conda-forge
 dependencies:
   - python=3.11
   - numpy

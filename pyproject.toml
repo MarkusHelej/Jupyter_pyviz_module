@@ -4,18 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jupyter-pyviz-module"
-version = "0.1.0"
-description = "Visualization tools for ActiWiz/IRAS dataset analysis"
-authors = [
-  { name="Markus Helej", email="markus.helejl@cern.ch" }
-]
+version = "0.2.0"
+description = "Visualization tools for dataset analysis"
 readme = "README.md"
 requires-python = ">=3.9"
-
+authors = [{ name="Markus Helej", email="markus.helejl@cern.ch" }]
 dependencies = [
-    "numpy",
-    "pandas",
-    "matplotlib",
-    "seaborn",
-    "scipy",
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "scipy",
+  "scikit-learn",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]
