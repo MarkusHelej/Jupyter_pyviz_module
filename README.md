@@ -1,5 +1,5 @@
 
-# Run this in your Anaconda Prompt
+# Run this in your Anaconda Prompt the first time you use it
 
 ### 1. Clone the repository
 git clone https://github.com/MarkusHelej/Jupyter_pyviz_module.git
@@ -14,6 +14,11 @@ pip install jupyterlab
 
 ### 4. Launch JupyterLab
 jupyter lab
+
+### 5. After first use, run the pyviz module from Anaconda Prompt
+conda activate pyviz
+jupyter lab
+
 
 ## Usage
 
